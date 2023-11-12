@@ -1,0 +1,42 @@
+{
+  "name": "am-ecomhelper",
+  "version": "1.0.0",
+  "description": "This is ecmo helper",
+  "main": "build/index.ts",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "ts-node-dev --respawn --transpile-only src/test.ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirban-629/am-ecomhelper"
+  },
+  "keywords": [
+    "ecommerce",
+    "authorization",
+    "authentication",
+    "ecomhelper"
+  ],
+  "author": "Anirban Mishra <anirbanmishra7005@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anirban-629/am-ecomhelper"
+  },
+  "homepage": "https://github.com/anirban-629/am-ecomhelper",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0"
+  },
+  "files": [
+    "build/**/*"
+  ]
+}
