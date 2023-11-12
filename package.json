@@ -1,9 +1,9 @@
 {
-  "name": "am-ecomhelper",
-  "version": "1.0.1",
+  "name": "am_ecomhelper",
+  "version": "1.0.0",
   "description": "This is ecmo helper",
   "main": "build/index.ts",
-  "types": "lib/index.d.ts",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
