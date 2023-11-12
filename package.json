@@ -1,6 +1,6 @@
 {
   "name": "am_ecomhelper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is ecom helper",
   "main": "build/index.js",
   "types": "build/index.d.ts",
