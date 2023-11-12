@@ -48,7 +48,7 @@ To learn how to use this package properly Read the offical documentation (Link p
 
 If you have any feedback, please reach out at my
 
-[![email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](anirbanmishra7005@gmail.com)
+[![email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anirbanmishra7005@gmail.com)
 
 ## Issues
 
