@@ -1,3 +1,5 @@
+import mongoose from "mongoose";
+
 export interface IMongooseStringField {
   type: StringConstructor;
   required?: boolean;
@@ -33,10 +35,16 @@ export interface IMongooseBooleanField {
   required?: boolean;
   default?: boolean;
 }
+export interface IMongooseRefId {
+  type?: mongoose.Schema.Types.ObjectId;
+  required?: boolean;
+  ref?: string;
+}
 export interface IMongooseField {
   type:
     | StringConstructor
     | NumberConstructor
     | DateConstructor
-    | BooleanConstructor;
+    | BooleanConstructor
+    | IMongooseRefId;
 }
