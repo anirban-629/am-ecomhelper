@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "test": "ts-node-dev --respawn --transpile-only src/test.ts",
+    "test": "ts-node-dev --respawn --transpile-only test/test.ts",
     "prepare": "npm run build"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "ecomhelper"
   ],
   "author": "Anirban Mishra <anirbanmishra7005@gmail.com>",
-  "license": "MIT",      
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/anirban-629/am-ecomhelper"
   },

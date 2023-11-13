@@ -72,29 +72,6 @@ export const generateDateField = (
 
   return field;
 };
-
-// export const generateRefIdField = (
-//   required?: boolean,
-//   _default?: Date | boolean,
-//   unique?: boolean,
-//   min?: Date,
-//   max?: Date,
-//   expires?: number | string
-// ): IMongooseDateField => {
-//   const field: IMongooseRefId = {
-//     type: mongoose.Schema.Types.ObjectId,
-//   };
-//   // Conditionally add properties based on provided parameters
-//   if (required !== undefined) field.required = required;
-//   if (unique !== undefined) field.unique = unique;
-//   if (_default !== undefined) field.default = _default;
-//   if (min !== undefined) field.min = min;
-//   if (max !== undefined) field.max = max;
-//   if (expires !== undefined) field.expires = expires;
-
-//   return field;
-// };
-
 export const generateBooleanField = (
   required?: boolean,
   _default?: boolean
@@ -107,5 +84,17 @@ export const generateBooleanField = (
   if (required !== undefined) field.required = required;
   if (_default !== undefined) field.default = _default;
 
+  return field;
+};
+export const generateRefIdField = (
+  required?: boolean,
+  ref?: string
+): IMongooseRefId => {
+  const field: IMongooseRefId = {
+    type: mongoose.Types.ObjectId,
+  };
+  // Conditionally add properties based on provided parameters
+  if (required !== undefined) field.required = required;
+  if (ref !== undefined) field.ref = ref;
   return field;
 };

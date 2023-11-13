@@ -36,7 +36,7 @@ export interface IMongooseBooleanField {
   default?: boolean;
 }
 export interface IMongooseRefId {
-  type?: mongoose.Schema.Types.ObjectId;
+  type?: typeof mongoose.Types.ObjectId;
   required?: boolean;
   ref?: string;
 }
