@@ -1,4 +1,4 @@
 node_modules
 /src/test.ts
 build
-test.md
+/test
