@@ -98,9 +98,8 @@ To learn how to use this package properly Read the offical documentation (Link p
       false,
       new Date(),
       new Date("2023-12-31"),
-      60 * 60 * 24
+      60 * 60 * 24 //24 Hours In Seconds,
     ),
-    //24 Hours In Seconds,
     isAdmin: generateBooleanField(true, false),
     age: generateNumberField(true, 20, false, 18, 100),
     ref_model: generateRefIdField(true, "User"),
@@ -113,7 +112,15 @@ To learn how to use this package properly Read the offical documentation (Link p
 
     ```javascript
     const testSchema = {
-      name: generateStringField(undefined,"ANIRBAN MISHRA",false,undefined,true,7,20)
+      name: generateStringField(
+        undefined,
+        "ANIRBAN MISHRA",
+        false,
+        undefined,
+        true,
+        7,
+        20
+      ),
       ...
     };
     ```
