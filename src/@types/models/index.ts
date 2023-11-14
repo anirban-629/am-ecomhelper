@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 export interface IMongooseStringField {
   type: StringConstructor;
   required?: boolean;
-  unique?: boolean;
   default?: string | number | boolean;
+  unique?: boolean;
   lowerCase?: boolean;
   upperCase?: boolean;
   minLength?: number;
@@ -14,8 +14,8 @@ export interface IMongooseStringField {
 export interface IMongooseNumberField {
   type: NumberConstructor;
   required?: boolean;
-  unique?: boolean;
   default?: number | boolean;
+  unique?: boolean;
   min?: number;
   max?: number;
 }
@@ -23,8 +23,8 @@ export interface IMongooseNumberField {
 export interface IMongooseDateField {
   type: DateConstructor;
   required?: boolean;
-  unique?: boolean;
   default?: Date | boolean;
+  unique?: boolean;
   min?: Date;
   max?: Date;
   expires?: number | string;

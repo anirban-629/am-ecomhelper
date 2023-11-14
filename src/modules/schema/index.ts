@@ -9,7 +9,7 @@ import {
 
 export const generateStringField = (
   required?: boolean,
-  _default?: string | number | boolean,
+  _default?: string | boolean,
   unique?: boolean,
   lowerCase?: boolean,
   upperCase?: boolean,
