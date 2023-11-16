@@ -69,15 +69,15 @@ To learn how to use this package properly Read the offical documentation (Link p
   - All the parameters are optional and depends on your application configuration if you don't want to use a single one then also it'll work accordingly
   - Suppose If you wnat to use the `_default` but you don't want to use `required` in that case you've to provide a **`undefined`** for those parameters
 
-  |     | **generateStringField(...)** | **generateNumberField(...)** | **generateDateField(...)** | **generateBooleanField(...)** | **generateRefIdField(...)** |
-  | --- | ---------------------------- | ---------------------------- | -------------------------- | ----------------------------- | --------------------------- |
-  | 1   | required (Boolean)           | required (Boolean)           | required (Boolean)         | required (Boolean)            | required (Boolean)          |
-  | 2   | \_default (Str/Num/Bool)     | \_default (Num/Bool)         | \_default (Date/Bool)      | \_default (Boolean)           | ref (String)                |
-  | 3   | unique (Boolean)             | unique (Boolean)             | unique (Boolean)           | -                             | -                           |
-  | 4   | lowerCase (Boolean)          | min (Number)                 | min (Number)               | -                             | -                           |
-  | 5   | upperCase (Boolean)          | max (Number)                 | max (Number)               | -                             | -                           |
-  | 6   | minLength (Number)           | -                            | expires (Num/Str)          | -                             | -                           |
-  | 7   | maxLength (Number)           | -                            | -                          | -                             | -                           |
+  |sno| **generateStringField(...)**|**generateNumberField(...)**|**generateDateField(...)**|**generateBooleanField(...)**|**generateRefIdField(...)**|
+  |---|-----------------------------|----------------------------|--------------------------|-----------------------------|---------------------------|
+  | 1 | required (Boolean)          | required (Boolean)         | required (Boolean)       | required (Boolean)          | required (Boolean)        |
+  | 2 | \_default (Str/Num/Bool)    | \_default (Num/Bool)       | \_default (Date/Bool)    | \_default (Boolean)         | ref (String)              |
+  | 3 | unique (Boolean)            | unique (Boolean)           | unique (Boolean)         | -                           | -                         |
+  | 4 | lowerCase (Boolean)         | min (Number)               | min (Number)             | -                           | -                         |
+  | 5 | upperCase (Boolean)         | max (Number)               | max (Number)             | -                           | -                         |
+  | 6 | minLength (Number)          | -                          | expires (Num/Str)        | -                           | -                         |
+  | 7 | maxLength (Number)          | -                          | -                        | -                           | -                         |
 
 - #### Details
 
@@ -186,8 +186,6 @@ If you have any feedback, please reach out at my
 If you are facing issuses while using this package, you can raise issue in the official github repository's Isuuse Section. [Clice here to raise an issue](https://github.com/anirban-629/am-ecomhelper/issues/new)
 
 ## License
-
-<!-- [MIT](https://choosealicense.com/licenses/mit/) -->
 
 MIT License
 
